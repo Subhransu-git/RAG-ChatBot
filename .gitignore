@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Uploaded documents and private data
+uploads/
+data/
+*.pdf
+*.docx
+*.csv
+*.txt
+
+# Generated vector indexes and document stores
+index.faiss
+docs.pkl
+
+# Model weights
+*.gguf
+*.safetensors
+*.bin
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
